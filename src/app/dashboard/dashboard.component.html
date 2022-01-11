@@ -15,14 +15,14 @@
       </p>
 
       <p class="mb-2">
-        <span class="font-weight-bold">My Markdowns: </span><tbody>
+        <span class="font-weight-bold">My HTML: </span><tbody>
         <tr *ngFor="let MD of userMDList">
           <li class = "MD" (click)="viewMD(MD.MDName)">{{MD.MDName}}</li>
         </tr></tbody>
       </p>
   
       <br>
-      <button class="btn" (click)="newMD()">New Markdown</button>
+      <button class="btn" (click)="newMD()">New HTML</button>
       <button class="btn btn-block btn-danger mt-4" (click)="signOut()">Sign out</button>
   
     </div>

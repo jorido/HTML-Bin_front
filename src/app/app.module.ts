@@ -17,7 +17,6 @@ import { SharedDBService } from './shared-db.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserEditorComponent } from './user-editor/user-editor.component';
-import { HtmlViewerDirective } from './html-viewer.directive';
 
 @NgModule({
   declarations: [
@@ -27,8 +26,7 @@ import { HtmlViewerDirective } from './html-viewer.directive';
     LoginComponent,
     GuestComponent,
     DashboardComponent,
-    UserEditorComponent,
-    HtmlViewerDirective,
+    UserEditorComponent
   
   ],
   imports: [
