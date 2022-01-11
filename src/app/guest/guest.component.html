@@ -1,0 +1,6 @@
+<div class = "wrap"><textarea #postform id="postform" [(ngModel)]="this.display" class="textarea_MD" style="overflow-wrap: break-word; height: 550px; width:750px; " placeholder="Enter markdown here"></textarea>
+<div #dialog id="dialog"></div>
+<br>
+<button class="btn" (click)="previewHTML()">Preview HTML</button>
+</div>
+<iframe [src]='html' class="preview" title="Preview"></iframe>

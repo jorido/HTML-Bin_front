@@ -1,0 +1,11 @@
+<div class="wrap">
+<textarea #postform id="postform" [(ngModel)]="this.display[0].MDFile" class="textarea_MD" style="overflow-wrap: break-word; height: 550px; width:750px; " placeholder="Enter markdown here"></textarea>
+<br>
+<br>
+<button class="btn" (click)="saveMD()">Save</button>
+<p></p>
+<button class="btn" (click)="previewHTML()">Preview HTML</button>
+<p></p>
+<button class="btn" (click)="toDashboard()">Dashboard</button>
+</div>
+<iframe [src]='html' class="preview" title="Preview"></iframe>

@@ -1,0 +1,16 @@
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 5px 12px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+img{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.MD:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
