@@ -10,4 +10,12 @@ p {
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
+    width: 40%;
+    margin:auto;
+    display:block;
   }
+
+.wrap {
+    text-align: center;
+}
+
