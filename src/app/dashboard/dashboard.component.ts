@@ -81,7 +81,7 @@ export class DashboardComponent implements OnInit {
       })
     }
     else{
-      alert('Invalid Characters');
+      alert('Please input URL friendly characters');
     }
   }
   
